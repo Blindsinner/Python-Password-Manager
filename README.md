@@ -5,7 +5,7 @@ This is a simple password manager command-line application written in Python tha
 
 ## Features
 
--   Store passwords with labels and URLs.
+-   Store your SHA-512 Encrypted passwords with labels and salt with a 2nd layer of Encryption.
 -   Passwords are encrypted using the master password with a strong hashing algorithm (SHA-512) and a random salt.
 -   View passwords in the terminal or copy them to the clipboard.
 -   Delete passwords from the database. (Password will store in a local .txt file with encryption)
